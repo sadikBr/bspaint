@@ -1,3 +1,10 @@
+import { ThemeToggle } from "./components/theme-toggle";
+
 export default function BSPaint() {
-  return <div className="font-bold text-3xl text-amber-800">BSPaint</div>;
+  return (
+    <div className="p-4 flex items-center justify-between">
+      BSPaint
+      <ThemeToggle />
+    </div>
+  );
 }
