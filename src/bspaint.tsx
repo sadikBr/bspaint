@@ -1,10 +1,13 @@
-import { ThemeToggle } from "./components/theme-toggle";
+import Canvas from "./components/canvas";
+import Footer from "./components/footer";
+import ToolsHeader from "./components/tools-header";
 
 export default function BSPaint() {
   return (
-    <div className="p-4 flex items-center justify-between">
-      BSPaint
-      <ThemeToggle />
+    <div className="w-full h-full">
+      <ToolsHeader />
+      <Canvas />
+      <Footer />
     </div>
   );
 }
